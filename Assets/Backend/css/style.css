@@ -1,0 +1,10 @@
+.error
+{
+    color: rgb(223, 233, 134);
+    font-style: italic;
+    font-size: 12px;
+}
+.box-body
+{
+   /*font-weight: bold !important;*/
+}
