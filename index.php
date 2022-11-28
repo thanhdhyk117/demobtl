@@ -1,6 +1,9 @@
 <?php
     session_start();
 
+    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Headers: *");
+    
     $_control = "App/controllers/controller.php";
     $_model = "App/database/Model.php";
     $_helper = "App/helpers/helper.php";
